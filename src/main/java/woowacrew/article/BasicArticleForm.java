@@ -22,6 +22,7 @@ public class BasicArticleForm {
     }
 
     public BasicArticleForm(String title, String content, User author) {
+        System.out.println();
         this.articleForm = new ArticleForm(title, content);
         this.author = author;
     }
